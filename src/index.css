@@ -1,13 +1,66 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Sawarabi Gothic', sans-serif;
+  background-color: gray;
 }
+
+.title {
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
+}
+
+/* Card  */
+.card {
+  width: 60vh;
+  height: 100vh;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+/* Output */
+.output,
+.input {
+  width: 100%;
+  text-align: right;
+}
+
+.output p {
+  padding-right: 30px;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.input p {
+  padding-right: 30px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+/* Button */
+.button {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.button div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.button div button {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: rgb(219, 218, 230) 1.95px 1.95px 2.6px;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
